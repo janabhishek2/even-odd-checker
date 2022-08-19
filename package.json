@@ -1,11 +1,11 @@
 {
   "name": "even-odd-checker",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "To check if number is even or odd",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/janabhishek2/even-odd-checker.git"
+    "url": "git+https://github.com/janabhishek2/even-odd-checker.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
