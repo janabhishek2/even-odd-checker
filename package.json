@@ -1,0 +1,14 @@
+{
+  "name": "even-odd-checker",
+  "version": "1.0.0",
+  "description": "To check if number is even or odd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EO"
+  ],
+  "author": "janabhishek2@gmail.com",
+  "license": "ISC"
+}
