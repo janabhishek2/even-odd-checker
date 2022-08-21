@@ -1,12 +1,23 @@
-const isEvenOrOdd = (num) => {
+const isEven = (num) => {
 	if(typeof num !== "number"){
-		console.log('Not a number' ,typeof num);
-		return;
+		return false;
 	} else if(num % 2 === 0){
-		console.log('Even number');
+		return true;
 	} else{
-		console.log('Odd Number')
+		return false;
+	}
+}
+const isOdd = (num) => {
+	if(typeof num !== "number"){
+		return false;
+	} else if(num % 2 !== 0 && num !== 1){
+		return true;
+	} else{
+		return false;
 	}
 }
 
-module.exports = isEvenOrOdd
+module.exports = {
+	isEven,
+	isOdd
+}

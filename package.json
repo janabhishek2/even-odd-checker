@@ -1,6 +1,6 @@
 {
   "name": "even-odd-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "To check if number is even or odd",
   "main": "index.js",
   "repository": {
